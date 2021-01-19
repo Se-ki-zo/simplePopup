@@ -1,0 +1,11 @@
+.popup-section__input {
+    width: 358px;
+    height: 24px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.popup-section__input:focus {
+    border-color: #2f71e5;
+    outline: none;
+}

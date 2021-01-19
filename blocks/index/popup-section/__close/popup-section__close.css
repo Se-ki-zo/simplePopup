@@ -1,0 +1,6 @@
+.popup-section__close {
+    position: absolute;
+    cursor: pointer;
+    left: 430px;
+    top: -30px;
+}

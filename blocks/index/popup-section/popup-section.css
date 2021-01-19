@@ -1,0 +1,16 @@
+@import url('./__button/popup-section__button.css');
+@import url('./__close/popup-section__close.css');
+@import url('./__err/popup-section__err.css');
+@import url('./__field/popup-section__field.css');
+@import url('./__form/popup-section__form.css');
+@import url('./__input-title/popup-section__input-title.css');
+@import url('./__input/popup-section__input.css');
+@import url('./__signup/popup-section__signup.css');
+@import url('./__title/popup-section__title.css');
+
+.popup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

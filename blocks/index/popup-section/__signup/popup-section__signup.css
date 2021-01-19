@@ -1,0 +1,10 @@
+.popup-section__signup {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+    width: 367px;
+    padding: 34px 36px;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+}

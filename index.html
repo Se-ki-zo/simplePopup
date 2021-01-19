@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./blocks/index/index.css">
+    <script type="module" defer src="./js/index/index.js"></script>
+    <title>Signup</title>
+    <meta name="description" content="Signup in MODX it's so easy!">
+    <meta name="Keywords" content="signup, modx, signup width modx">
+</head>
+
+<body>
+    <div class="body">
+        <section class="popup-section">
+            
+            <div class="popup-section__signup">
+                <img src="./images/close.svg" alt="close" class="popup-section__close">
+
+                <h4 class="popup-section__title">Регистрация</h4>
+
+                <form class="popup-section__form" name="signup">
+                    <div class="popup-section__field">
+                        <p class="popup-section__input-title">Имя</p>
+                        <input autocomplete="off" name="name" maxlength="10" minlength="2" required type="text" pattern="[a-zA-Zа-яА-Я]{2,10}"
+                            placeholder="Александр" class="popup-section__input">
+                        <p class="popup-section__err"></p>
+                    </div>
+
+                    <div class="popup-section__field">
+                        <p class="popup-section__input-title">Телефон</p>
+                        <input autocomplete="off" name="tel" maxlength="12" minlength="11" required type="tel"
+                            pattern="[7-8]{1}\d{10}|\+7\d{10}" placeholder="89998887766" class="popup-section__input">
+                        <p class="popup-section__err"></p>
+                    </div>
+
+                    <div class="popup-section__field">
+                        <p class="popup-section__input-title">Email</p>
+                        <input autocomplete="off" name="email" required type="email"
+                            pattern="([a-z0-9]{1,}((-|\.)?[a-z0-9]{1,}))@[a-z0-9]{1,}(-[a-z0-9]{1,})?(\.[a-z]{2,})?(\.[a-z]{2,3})"
+                            placeholder="exaple@gmail.com" class="popup-section__input">
+                        <p class="popup-section__err"></p>
+                    </div>
+                    <button class="button popup-section__button" disabled>Зарегистрироваться</button>
+                </form>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>
